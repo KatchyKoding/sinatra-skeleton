@@ -1,4 +1,3 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
 gem 'rake'
@@ -16,3 +15,8 @@ group :development, :test do
   gem 'shotgun'
   gem 'sqlite3'
 end
+
+gem 'rmagick'
+gem 'mini_magick', '3.8.0'
+gem 'carrierwave'
+gem 'faker'
